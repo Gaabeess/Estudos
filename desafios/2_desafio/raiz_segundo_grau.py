@@ -1,5 +1,7 @@
 ## Calculadora de Raízes de Função Quadrada
 
+import math
+
 # Solicita ao usuário que insira a função quadrada
 funcao_quadrada = input("Digite a função quadrada no formato ax^2 + bx + c: ")
 
@@ -74,8 +76,8 @@ def calcular_raizes(a, b, c):
     else:
 
         # Calcula as duas raízes usando a fórmula de Bhaskara
-        raiz1 = (-b + delta**0.5) / (2*a)
-        raiz2 = (-b - delta**0.5) / (2*a)
+        raiz1 = (-b + math.sqrt(delta)) / (2*a)
+        raiz2 = (-b - math.sqrt(delta)) / (2*a)
 
         # Retorna as duas raízes distintas
         return raiz1, raiz2
@@ -87,9 +89,12 @@ raiz1, raiz2 = calcular_raizes(*extrair_coeficientes(funcao_quadrada))
 if raiz1 is None and raiz2 is None:
     print("A função não possui raízes reais.")
 elif raiz1 == raiz2:
-    print(f"A função possui uma raiz real: {raiz1}")
+    print(f"A função possui uma raiz real:")
+    print(f" x = {raiz1}")
 else:
-    print(f"A função possui duas raízes reais: {raiz1} e {raiz2}")
+    print(f"A função possui duas raízes reais:")
+    print(f" x1 = {round(raiz2, 3)}")
+    print(f" x2 = {round(raiz1, 3)}")
 
 # Exemplo de uso:
 # Entrada: 2x^2 - 4x + 2
