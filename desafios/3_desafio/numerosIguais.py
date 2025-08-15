@@ -52,15 +52,15 @@ def numerosIguais(array):
     Returns:
         Uma string indicando se há números iguais ou não.
     """
-
+    # Inicializa o índice para percorrer a lista
     i = 0
 
     # Percorre a lista de números para verificar se há números iguais
     while i < len(array) - 1:
         if array[i] == array[i + 1]:
-            return "Números iguais"
+            return "sim"
         i += 1
-    return "Números diferentes"
+    return "não"
 
 # Exibe o resultado da verificação de números iguais
 print(numerosIguais(dividir_em_ordens(int(number))))

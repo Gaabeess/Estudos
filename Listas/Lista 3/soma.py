@@ -73,6 +73,6 @@ def soma (args):
         return sum(int(i) for i in args)
 
 # Exibe o resultado da soma dos números
-print(f"A soma dos números é: {soma(dividir_em_ordens(int(number)))}")
+print(f"{soma(dividir_em_ordens(int(number)))}")
 
 

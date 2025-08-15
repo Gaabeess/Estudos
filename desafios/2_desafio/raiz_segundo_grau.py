@@ -8,6 +8,14 @@ funcao_quadrada = input("Digite a função quadrada no formato ax^2 + bx + c: ")
 # Função para extrair os coeficientes a, b e c da função quadrada
 def extrair_coeficientes(funcao):
 
+    """ Extrai os coeficientes de uma função quadrada no formato ax^2 + bx + c.
+    Args:
+        funcao: A função quadrada como uma string.
+    Returns:
+        Uma tupla com os coeficientes a, b e c.
+        Se a função não estiver no formato correto, retorna 0 para todos os coeficientes.
+    """
+
     # Remove espaços e substitui '-' por '+-' para facilitar a separação dos termos
     funcao = funcao.replace(" ", "").replace("-", "+-")
 
@@ -44,6 +52,18 @@ def extrair_coeficientes(funcao):
 
 # Calcula as raízes da função quadrada usando a fórmula de Bhaskara
 def calcular_raizes(a, b, c): 
+
+    """ Calcula as raízes de uma função quadrada.
+    Args:
+        a: Coeficiente de x^2.
+        b: Coeficiente de x.
+        c: Termo constante.
+    Returns:
+        Uma tupla com as raízes da função quadrada:
+            Se não houver raízes reais, retorna None.
+            Se houver uma raiz dupla, retorna a raiz única.
+            Se houver duas raízes distintas, retorna ambas.
+    """
 
     # Extrai os coeficientes da função quadrada
     a, b, c = extrair_coeficientes(funcao_quadrada) 
