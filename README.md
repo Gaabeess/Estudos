@@ -34,3 +34,10 @@ Criar um ambiente pessoal para testar códigos, consolidar conceitos e encarar d
 
 ---
 
+## ⚠️ Aviso sobre os Exercícios
+
+Os desafios e atividades presentes neste repositório foram **inspirados** em exercícios de um curso da [Coursera](https://www.coursera.org/), porém **todo o código e explicações são de autoria própria**.
+
+Não há reprodução integral dos enunciados originais para respeitar os direitos autorais do curso.
+
+---
