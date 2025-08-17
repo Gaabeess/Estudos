@@ -6,7 +6,7 @@ numbers = int(input("Digite um numero inteiro positivo: "))
 def numeros_impares(numbers):
 
     """
-    Exibe números ímpares de 1 até o número fornecido.
+    Exibe N números ímpares, ao começar do 1.
     Args:
         numbers: O número inteiro positivo até onde os ímpares serão exibidos.
     Returns:
@@ -35,6 +35,6 @@ def numeros_impares(numbers):
         return
     
 # Chama a função e imprime os números ímpares
-numeros_impares(int(numbers))
+numeros_impares(numbers)
 # A função imprime N numeros ímpares começando de 1
 # Exemplo: se o usuário inserir 5, a saída será 1, 3, 5, 7, 9

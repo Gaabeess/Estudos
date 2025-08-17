@@ -1,4 +1,6 @@
-     *Tabela de precedência e associatividade de operadores aritméticos*
+# Resumo teórico de Python :snake:
+   
+## *Tabela de precedência e associatividade de operadores aritméticos*
 
 Operador -> ()       -> parentesês                                        -> da esquerda para a direita
 Operador -> **       -> potência                                          -> da direita para a esquerda 
@@ -6,9 +8,9 @@ Operador -> +,-      -> positivo e negativo unário                        -> da
 Operador -> *,/,//,% -> multiplicação , divisão, divisão inteira e resto  -> da esquerda para a direita
 Operador -> +,-      -> soma e subtração                                  -> da esquerda para a direita
 
+---
 
-
-     *Tabela dos operadores relacionais*
+## *Tabela dos operadores relacionais*
 
 Operador -> == -> igualdade      -> Exemplo: 2 == 3 -> False
 Operador -> != -> desigualdade   -> Exemplo: 2 != 3 -> True
@@ -17,15 +19,19 @@ Operador -> >= -> maior ou igual -> Exemplo: 3 >= 3 -> False
 Operador -> <  -> menor          -> Exemplo: 2 < 3  -> True
 Operador -> <= -> menor ou igual -> Exemplo: 4 <= 3 -> False
 
+---
 
-     *Precedência dos operadores lógicos*
+## *Precedência dos operadores lógicos*
 
 not -> negação lógica -> not True       -> False -> (Inverte o valor booleano)
 and -> E lógico       -> True and False -> False -> (Necessita de dois True para resultar True)
 or  -> OR lógico      -> True or False  -> True  -> (Necessita de ao menos um True para resultar True)
 
+---
 
-      *Técnicas*
+
+
+## *Técnicas*
 
 O Python permite a notação (x <= a and x >= b) para verificar se o valor x está no intervalo [a, b]
 
