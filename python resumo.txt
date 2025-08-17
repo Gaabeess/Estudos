@@ -29,7 +29,31 @@ or  -> OR lógico      -> True or False  -> True  -> (Necessita de ao menos um T
 
 ---
 
+# *Comando de repetição: ~while~*
 
+Quando o comando while é executado, a *condição* é testada e, caso verdadeira,
+o seu corpo é executado um comando de cada vez, ou seja *comando_1* primeiro, depois o *comando_2*,
+até o *comando_n*. Após a execução do comando_n a condição volta a ser testada e, caso verdadeira,
+o processo se repete. O while termina quando, ao testar a condição, o resultado do teste for False.
+
+---
+
+## *Sintaxe*
+
+-> if (condição):
+    comando
+-> elif (condição):
+    comando
+-> else (condição ou sem condição):
+    comando
+
+-> while (condição):
+    comando_1
+    comando_2
+    ...
+    comando_n
+
+---
 
 ## *Técnicas*
 
