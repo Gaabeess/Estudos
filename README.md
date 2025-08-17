@@ -22,7 +22,8 @@ Criar um ambiente pessoal para testar códigos, consolidar conceitos e encarar d
 
 - **`Listas/`** – Exercícios e códigos sobre listas, manipulação de dados, comprehensions, etc.
 - **`desafios/`** – Desafios práticos para testar e aprimorar conhecimentos
-- **`python resumo.txt`** – Resumo com conceitos, sintaxes e anotações importantes
+- **`python resumo.md`** – Resumo com conceitos, sintaxes e anotações importantes
+- **`teste.py`** – Arquivo de testes e experimentos diversos
 
 ---
 
