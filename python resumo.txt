@@ -38,14 +38,26 @@ o processo se repete. O while termina quando, ao testar a condição, o resultad
 
 ---
 
+# *Pytest*
+
+Utilizado para automatizar testes em python.
+Todo arquivo de teste deve ser escrito a seguinte maneira - test_*.py ou *_test.py (* representa o nome do arquivo a ser testado)
+Executa funções de metodos do tipo test_*.
+Os testes devem ser feitos pelo terminal ou cmd.
+Todo arquivo de testes deve ser criado fora do arquivo que irá ser testado.
+
+---
 ## *Sintaxe*
 
 -> if (condição):
     comando
+    return (retorna o resultado que foi escolhido)
 -> elif (condição):
     comando
+    return (retorna o resultado que foi escolhido)
 -> else (condição ou sem condição):
     comando
+    return (retorna o resultado que foi escolhido)
 
 -> while (condição):
     comando_1
@@ -53,6 +65,9 @@ o processo se repete. O while termina quando, ao testar a condição, o resultad
     ...
     comando_n
 
+def nome_da_função(argumentos/sem argumento):
+    Tudo que for necessário para a função realizar o que Necessita
+    return (retorna o resultado que foi escolhido) / assert (se for um teste)
 ---
 
 ## *Técnicas*
